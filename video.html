@@ -20,7 +20,12 @@
 		background-image: url(./images/play.png);
 	}
 	/*Use CSS before property to display the image before the text in the buttons*/
-	
+	.play::before {
+		content: url(images/icon.png);
+	}
+	.pause::before {
+		content: url(images/video-pause-button.png);
+	}
 </style>
 </head>
 <body onload = "getVid()"> 
